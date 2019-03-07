@@ -6,6 +6,8 @@ while x != 0:
 		break 
 	else:
 		x = x -1
+		if x == 0:
+			break
 		print('密碼錯誤! 還有', x, '次機會')
 
 
